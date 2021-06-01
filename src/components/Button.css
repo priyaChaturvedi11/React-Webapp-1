@@ -1,0 +1,97 @@
+:root{
+    --primary: #fff;
+}
+
+/* STYLES */
+
+.btn{
+    padding: .5em 1.25em;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.btn--primary{
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+}
+.btn--outline{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid var(--primary);
+    padding: .5em 1.25em; /* #TODO: can it be  avoided? */
+    transition: all 0.3s ease-out;
+}
+
+/* SIZES */
+
+.btn-md{
+    padding: .5em 1.25em; 
+    font-size: 1.125rem; /* 18px */
+}
+.btn-lg{
+    padding: 1em 2em;
+    font-size: 1.25rem;
+}
+.btn--mb{
+    text-align: center;
+    border-radius: 4px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 1em 1.5em;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+}
+.btn--wide{
+    padding: 1em 3em;
+    font-size: 1.5rem;
+}
+.btn--lg:hover,
+.btn--md:hover,
+.btn--mb:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+}
+.btn--wide:hover{
+    color: #fff;
+    background-color: #f00946;
+    transition: all 0.2s ease-out;
+}
+
+/* COLOR */
+
+.blue{
+    background-color: #276afb;
+    color: #fff;
+    border: none;
+}
+.red{
+    background-color: #f00946;
+    color: #fff;
+    border: none;
+}
+.primary{
+    background-color: #242424;
+    color: #fff;
+    border: none;
+}
+.primary:hover{
+    background-color: #fff;
+    color: #242424;
+    border: none;
+}
+.green{
+    background-color: #25ce4a;
+    color: #fff;
+    border: none;
+}
+.green:hover{
+    background-color: #242424;
+
+}
